@@ -5,7 +5,7 @@ tags:
 - gradle
 - groovy
 ---
-个人习惯不同，有时候也是衡量一个人能力好坏的关键，所以每次在接触到关于某个知识点的不同认知后，我都会拿来和自己的想法进行对比，把好的拿进来、把不好的去掉，以此进步。知识总是不断更新，在以前的工作中，习惯把build.gradle的某些项目地址版本写的另一份gradle文件里面。
+在配置gradle依赖库的时候，一直习惯把build.gradle的某些项目的地址和版本写在另一份gradle文件里面。
 ```groovy
 ext {
     sourceCompatibility = JavaVersion.VERSION_1_7
@@ -110,7 +110,7 @@ def injectDependency(Closure closure) {
      retrofit()
  }
 ```
-最后引用依赖
+最后引用依赖。
 ```groovy
 apply from: "dependency.gradle"
 ```
