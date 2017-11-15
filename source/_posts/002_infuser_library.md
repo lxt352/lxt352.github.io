@@ -12,7 +12,7 @@ tags:
 <!-- more -->
 
 ### 实现
-* 通过`Infuser.bind(this)`绑定当前对象，该方法具有`@NonNull`和`@UiThread`注解favicon.png，因此返回值Binder对象不能为空，并且方法是在主线程中执行的。
+* 通过`Infuser.bind(this)`绑定当前对象，该方法具有`@NonNull`和`@UiThread`注解，因此返回值Binder对象不能为空，并且方法是在主线程中执行的。
 ```java
 @NonNull
 @UiThread
