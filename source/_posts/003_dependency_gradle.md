@@ -85,7 +85,7 @@ def injectDependency(Closure closure) {
      retrofit()
  }
 ```
- 如果想要对版本进行统一管理的话，还可以抽取版本信息。
+ 如果想要对版本进行统一管理，可以抽取版本信息。
 ```groovy
 ext {
     versions = [
