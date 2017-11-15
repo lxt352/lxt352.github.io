@@ -58,9 +58,9 @@ dependencies {
 简化
 ```groovy
 def dagger() {
-    dependencies.implementation com.google.dagger:dagger:2.0.2"
-    dependencies.implementation com.google.dagger:dagger-compiler:2.0.2"
-    dependencies.provided javax.annotation:jsr250-api:1.0"
+    dependencies.implementation 'com.google.dagger:dagger:2.0.2'
+    dependencies.implementation 'com.google.dagger:dagger-compiler:2.0.2'
+    dependencies.provided 'javax.annotation:jsr250-api:1.0'
 }
 
 dependencies {
