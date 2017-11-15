@@ -1,6 +1,6 @@
 ---
 title: Infuser 轻量级的依赖注入
-date: 2017-11-15
+date: 2017-11-15 10:43:00
 tags:
 - library
 - 依赖注入
@@ -35,7 +35,7 @@ private static Binder createBinder(Object object) {
     }
 }
 ```
-* 创建依赖的对象，获取到该对象的Class对象，然后获取到Constructor对象，最后创建实例。
+* 创建依赖的对象，获取该对象的`Class`对象，通过`Class`对象获取`Constructor`对象，最后创建实例。
 ```java
 public class MainActivity_ConstructorBinder implements Binder {
 
