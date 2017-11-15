@@ -20,7 +20,7 @@ public static Binder bind(Object object) {
     return createBinder(object);
 }
 ```
-* 构建返回值Binder,即要查找的自动生成的类的对象，统一实现了Binder接口。
+* 构建返回值`Binder`，即要查找的自动生成的类的对象，统一实现了Binder接口。
 ```java
 private static Binder createBinder(Object object) {
     Class<?> clazz = object.getClass();
