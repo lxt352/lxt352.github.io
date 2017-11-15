@@ -40,7 +40,7 @@ dependencies {
 ### 不足
 在使用的开源项目较多时，类别划分的重要性就体现出来了，分类的好坏给人的感觉也是不一样的。
 
-![http://ozc61ychw.bkt.clouddn.com/gradle_category.jpeg]
+![gradle dependency](http://ozc61ychw.bkt.clouddn.com/gradle_category.jpeg)
 
 ### 分类
  依据项目的关联性或者功能进行划分，例如依赖Dagger时需要用到另外两个相关的项目。
