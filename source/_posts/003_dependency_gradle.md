@@ -55,7 +55,7 @@ dependencies {
     dagger()
 }
 ```
-简化
+简化。
 ```groovy
 def dagger() {
     dependencies.implementation 'com.google.dagger:dagger:2.0.2'
@@ -67,7 +67,7 @@ dependencies {
     dagger()
 }
 ```
- 闭包具有一个代理对象(delegate object)，可以对Clousure的代理对象进行赋值操作。
+ 闭包具有一个代理对象(delegate object)，可以对Closure的代理对象进行赋值操作。
 ```groovy
 def injectDependency(Closure closure) {
      closure.delegate = dependencies
